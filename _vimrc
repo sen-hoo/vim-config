@@ -80,7 +80,11 @@ else
 endif
 
 
+"关闭vi一致性原则
 set nocompatible
+"设置退格键
+set backspace=indent,eol,start
+
 "##########插件管理 开始#############
 filetype off 
 set rtp+=$VIM/vimfiles/bundle/vundle/
